@@ -21,7 +21,7 @@ public class BestLoanRates {
         float bestRate = getRates(loadTerminYears);
 
         if (Float.compare(bestRate, 0.0f) == 0) {
-            System.out.println("No avaiable rate for term: " + loadTerminYears + " years");
+            System.out.println("No avaiable rates for term: " + loadTerminYears + " years");
         }
         else {
             System.out.println("Best Available Rate: " + getRates(loadTerminYears) + "%");
